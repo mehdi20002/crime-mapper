@@ -1,0 +1,136 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.container {
+    padding: 20px;
+}
+
+.map-container {
+    width: 100%;
+    height: 600px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-bottom: 4px solid #007bff;
+}
+
+header .logo-section {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+header img {
+    width: 50px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #007bff;
+}
+
+header .auth-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+header .auth-buttons a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+header .auth-buttons a:hover {
+    background: #007bff;
+}
+header .auth-buttons .button:last-child {
+    margin-left: auto;
+}
+/* Styles pour le container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles pour le bouton */
+#saveDrawing {
+    background-color: #007bff; 
+    border: none; /* Pas de bordure */
+    color: white; /* Texte blanc */
+    padding: 15px 32px; /* Espacement interne */
+    text-align: center; /* Texte centré */
+    text-decoration: none; /* Pas de soulignement */
+    display: inline-block; /* Affichage en ligne */
+    font-size: 16px; /* Taille de police */
+    margin: 4px 2px; /* Marge externe */
+    cursor: pointer; /* Curseur pointeur */
+    border-radius: 8px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition pour l'effet de survol */
+}
+
+/* Effet de survol */
+#saveDrawing:hover {
+    background-color: #4ca2fd; /* Couleur de fond verte plus foncée */
+}
